@@ -77,7 +77,7 @@ begin
         $display("%5t | %5d | T%0d      | %2d | %3d | %b | %3d | %3d | %3d | %3d | %b",
             $time,
             ciclo,
-            DUT.CTRL.state,
+            DUT.CTRL.state + 1,   // exibe T1..T6 (estado interno e 0..5)
             DUT.PC.pc_out,
             DUT.MAR.mar_out,
             DUT.IR.instruction,

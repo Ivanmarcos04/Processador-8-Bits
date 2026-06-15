@@ -7,7 +7,13 @@ module ram16x8(
 
 reg [7:0] memory [0:15];
 
+integer i;
+
 initial begin
+
+    // Inicializa toda a memoria em 0 (evita valores 'x' nas posicoes nao usadas)
+    for(i = 0; i < 16; i = i + 1)
+        memory[i] = 8'b0000_0000;
 
     // Programa exemplo
 

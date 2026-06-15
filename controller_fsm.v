@@ -55,20 +55,34 @@ parameter SUB = 4'b0010;
 parameter OUT = 4'b1110;
 parameter HLT = 4'b1111;
 
+// Flag de parada (HLT): quando setado, congela o sequenciador
+reg halted;
+
 // -------------------------------------------------------
-// Sequenciador: avanca o estado a cada borda de subida
+// Sequenciador: avanca o estado a cada borda de subida.
+// Para de avancar permanentemente apos decodificar HLT.
 // -------------------------------------------------------
 always @(posedge clk or posedge reset)
 begin
     if(reset)
-        state <= T1;
-    else
+    begin
+        state  <= T1;
+        halted <= 1'b0;
+    end
+    else if(!halted)
     begin
         case(state)
             T1: state <= T2;
             T2: state <= T3;
             T3: state <= T4;
-            T4: state <= T5;
+            T4:
+            begin
+                // HLT ja esta decodificado em T4: congela o processador
+                if(opcode == HLT)
+                    halted <= 1'b1;   // permanece em T4, nao avanca mais
+                else
+                    state <= T5;
+            end
             T5: state <= T6;
             T6: state <= T1;
             default: state <= T1;
