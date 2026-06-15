@@ -1,0 +1,273 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/mlsl/Documents/Processador_8bits
+vaccumulator_a
+Z1 !s110 1780876925
+!i10b 1
+!s100 UMiNcoFM7nZc@5c=e<E8T1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ic7G:HQgGY19MD5D7aM=_73
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1780871895
+8C:/Users/mlsl/Documents/Processador_8bits/accumulator_a.v
+FC:/Users/mlsl/Documents/Processador_8bits/accumulator_a.v
+!i122 5
+L0 1 29
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1780876925.000000
+!s107 C:/Users/mlsl/Documents/Processador_8bits/accumulator_a.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mlsl/Documents/Processador_8bits|C:/Users/mlsl/Documents/Processador_8bits/accumulator_a.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/mlsl/Documents/Processador_8bits
+Z8 tCvgOpt 0
+valu
+R1
+!i10b 1
+!s100 TGJ;zGh4Wb1XDU=<AK]ab2
+R2
+IRbG4[^]eVl4d2A`]?4Reo2
+R3
+R0
+w1780872167
+8C:/Users/mlsl/Documents/Processador_8bits/alu.v
+FC:/Users/mlsl/Documents/Processador_8bits/alu.v
+!i122 7
+L0 1 22
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mlsl/Documents/Processador_8bits/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mlsl/Documents/Processador_8bits|C:/Users/mlsl/Documents/Processador_8bits/alu.v|
+!i113 1
+R6
+R7
+R8
+vcontroller_fsm
+Z9 !s110 1780876924
+!i10b 1
+!s100 6Vfo2oIHic88mHAMP6FZb2
+R2
+I4zTz7PZz[2@`dbL41>P=A1
+R3
+R0
+w1780874217
+8C:/Users/mlsl/Documents/Processador_8bits/controller_fsm.v
+FC:/Users/mlsl/Documents/Processador_8bits/controller_fsm.v
+!i122 0
+L0 1 184
+R4
+r1
+!s85 0
+31
+Z10 !s108 1780876924.000000
+!s107 C:/Users/mlsl/Documents/Processador_8bits/controller_fsm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mlsl/Documents/Processador_8bits|C:/Users/mlsl/Documents/Processador_8bits/controller_fsm.v|
+!i113 1
+R6
+R7
+R8
+vir
+R9
+!i10b 1
+!s100 Q6m=6DM:oG9CgXWfUeY2P0
+R2
+IQ6z7o9R7T653=??W8^fYn2
+R3
+R0
+w1780871329
+8C:/Users/mlsl/Documents/Processador_8bits/ir.v
+FC:/Users/mlsl/Documents/Processador_8bits/ir.v
+!i122 4
+L0 1 31
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/mlsl/Documents/Processador_8bits/ir.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mlsl/Documents/Processador_8bits|C:/Users/mlsl/Documents/Processador_8bits/ir.v|
+!i113 1
+R6
+R7
+R8
+vmar
+R9
+!i10b 1
+!s100 ZK0Za8XbgJAiVjP@45Ie42
+R2
+I>Eh5HNWR[X@jQ`PF<lHUV1
+R3
+R0
+w1780871164
+8C:/Users/mlsl/Documents/Processador_8bits/mar.v
+FC:/Users/mlsl/Documents/Processador_8bits/mar.v
+!i122 2
+L0 1 20
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/mlsl/Documents/Processador_8bits/mar.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mlsl/Documents/Processador_8bits|C:/Users/mlsl/Documents/Processador_8bits/mar.v|
+!i113 1
+R6
+R7
+R8
+voutput_register
+R1
+!i10b 1
+!s100 JR6A=fFhlTjcdf:Cg`;`z3
+R2
+ILOVj_A5UIUReMgY90MIJ[3
+R3
+R0
+w1780872250
+8C:/Users/mlsl/Documents/Processador_8bits/output_register.v
+FC:/Users/mlsl/Documents/Processador_8bits/output_register.v
+!i122 8
+L0 1 21
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mlsl/Documents/Processador_8bits/output_register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mlsl/Documents/Processador_8bits|C:/Users/mlsl/Documents/Processador_8bits/output_register.v|
+!i113 1
+R6
+R7
+R8
+vpc
+R9
+!i10b 1
+!s100 :5=gOIeJ<jc=kL7oOmAV51
+R2
+I=fFFPI87cSh;QXlzGHo9F3
+R3
+R0
+w1780870872
+8C:/Users/mlsl/Documents/Processador_8bits/pc.v
+FC:/Users/mlsl/Documents/Processador_8bits/pc.v
+!i122 1
+L0 1 18
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/mlsl/Documents/Processador_8bits/pc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mlsl/Documents/Processador_8bits|C:/Users/mlsl/Documents/Processador_8bits/pc.v|
+!i113 1
+R6
+R7
+R8
+vprocessador_8bits
+R1
+!i10b 1
+!s100 zT9=MQ<Dnf44F7eY2ZbjD1
+R2
+IMn4z26[=V5QND>h62f=623
+R3
+R0
+w1780874305
+8C:/Users/mlsl/Documents/Processador_8bits/processador_8bits.v
+FC:/Users/mlsl/Documents/Processador_8bits/processador_8bits.v
+!i122 9
+L0 1 198
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mlsl/Documents/Processador_8bits/processador_8bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mlsl/Documents/Processador_8bits|C:/Users/mlsl/Documents/Processador_8bits/processador_8bits.v|
+!i113 1
+R6
+R7
+R8
+vram16x8
+R9
+!i10b 1
+!s100 FB;jdWz91N6MaOFO>i0]A1
+R2
+IndlGKF0B5m:2VO4_^ZU>42
+R3
+R0
+w1780871235
+8C:/Users/mlsl/Documents/Processador_8bits/ram16x8.v
+FC:/Users/mlsl/Documents/Processador_8bits/ram16x8.v
+!i122 3
+Z11 L0 1 34
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/mlsl/Documents/Processador_8bits/ram16x8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mlsl/Documents/Processador_8bits|C:/Users/mlsl/Documents/Processador_8bits/ram16x8.v|
+!i113 1
+R6
+R7
+R8
+vregister_b
+R1
+!i10b 1
+!s100 H007_?knZzd7h05iiE=FL3
+R2
+If>lBzRdO8ZKL_E=0_29?;2
+R3
+R0
+w1780872055
+8C:/Users/mlsl/Documents/Processador_8bits/register_b.v
+FC:/Users/mlsl/Documents/Processador_8bits/register_b.v
+!i122 6
+L0 1 25
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mlsl/Documents/Processador_8bits/register_b.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mlsl/Documents/Processador_8bits|C:/Users/mlsl/Documents/Processador_8bits/register_b.v|
+!i113 1
+R6
+R7
+R8
+vtb_processador
+!s110 1780877431
+!i10b 1
+!s100 97V[`3G1AbRo3?6B8Ho`@0
+R2
+I@j<ML<a3Eg4KW>JHD6_Qz1
+R3
+R0
+w1780875381
+8C:/Users/mlsl/Documents/Processador_8bits/tb_processador.v
+FC:/Users/mlsl/Documents/Processador_8bits/tb_processador.v
+!i122 10
+R11
+R4
+r1
+!s85 0
+31
+!s108 1780877431.000000
+!s107 C:/Users/mlsl/Documents/Processador_8bits/tb_processador.v|
+!s90 -reportprogress|300|C:/Users/mlsl/Documents/Processador_8bits/tb_processador.v|
+!i113 1
+R8
