@@ -1,0 +1,155 @@
+# Reading pref.tcl
+# do processador_8bits_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/mlsl/Documents/Processador_8bits {C:/Users/mlsl/Documents/Processador_8bits/controller_fsm.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:04 on Jun 07,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mlsl/Documents/Processador_8bits" C:/Users/mlsl/Documents/Processador_8bits/controller_fsm.v 
+# -- Compiling module controller_fsm
+# 
+# Top level modules:
+# 	controller_fsm
+# End time: 20:02:04 on Jun 07,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mlsl/Documents/Processador_8bits {C:/Users/mlsl/Documents/Processador_8bits/pc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:04 on Jun 07,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mlsl/Documents/Processador_8bits" C:/Users/mlsl/Documents/Processador_8bits/pc.v 
+# -- Compiling module pc
+# 
+# Top level modules:
+# 	pc
+# End time: 20:02:04 on Jun 07,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mlsl/Documents/Processador_8bits {C:/Users/mlsl/Documents/Processador_8bits/mar.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:04 on Jun 07,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mlsl/Documents/Processador_8bits" C:/Users/mlsl/Documents/Processador_8bits/mar.v 
+# -- Compiling module mar
+# 
+# Top level modules:
+# 	mar
+# End time: 20:02:04 on Jun 07,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mlsl/Documents/Processador_8bits {C:/Users/mlsl/Documents/Processador_8bits/ram16x8.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:04 on Jun 07,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mlsl/Documents/Processador_8bits" C:/Users/mlsl/Documents/Processador_8bits/ram16x8.v 
+# -- Compiling module ram16x8
+# 
+# Top level modules:
+# 	ram16x8
+# End time: 20:02:04 on Jun 07,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mlsl/Documents/Processador_8bits {C:/Users/mlsl/Documents/Processador_8bits/ir.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:04 on Jun 07,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mlsl/Documents/Processador_8bits" C:/Users/mlsl/Documents/Processador_8bits/ir.v 
+# -- Compiling module ir
+# 
+# Top level modules:
+# 	ir
+# End time: 20:02:04 on Jun 07,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mlsl/Documents/Processador_8bits {C:/Users/mlsl/Documents/Processador_8bits/accumulator_a.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:05 on Jun 07,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mlsl/Documents/Processador_8bits" C:/Users/mlsl/Documents/Processador_8bits/accumulator_a.v 
+# -- Compiling module accumulator_a
+# 
+# Top level modules:
+# 	accumulator_a
+# End time: 20:02:05 on Jun 07,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mlsl/Documents/Processador_8bits {C:/Users/mlsl/Documents/Processador_8bits/register_b.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:05 on Jun 07,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mlsl/Documents/Processador_8bits" C:/Users/mlsl/Documents/Processador_8bits/register_b.v 
+# -- Compiling module register_b
+# 
+# Top level modules:
+# 	register_b
+# End time: 20:02:05 on Jun 07,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mlsl/Documents/Processador_8bits {C:/Users/mlsl/Documents/Processador_8bits/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:05 on Jun 07,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mlsl/Documents/Processador_8bits" C:/Users/mlsl/Documents/Processador_8bits/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 20:02:05 on Jun 07,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mlsl/Documents/Processador_8bits {C:/Users/mlsl/Documents/Processador_8bits/output_register.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:05 on Jun 07,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mlsl/Documents/Processador_8bits" C:/Users/mlsl/Documents/Processador_8bits/output_register.v 
+# -- Compiling module output_register
+# 
+# Top level modules:
+# 	output_register
+# End time: 20:02:05 on Jun 07,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mlsl/Documents/Processador_8bits {C:/Users/mlsl/Documents/Processador_8bits/processador_8bits.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:05 on Jun 07,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mlsl/Documents/Processador_8bits" C:/Users/mlsl/Documents/Processador_8bits/processador_8bits.v 
+# -- Compiling module processador_8bits
+# 
+# Top level modules:
+# 	processador_8bits
+# End time: 20:02:05 on Jun 07,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# Load canceled
+vlog C:/Users/mlsl/Documents/Processador_8bits/tb_processador.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:10:31 on Jun 07,2026
+# vlog -reportprogress 300 C:/Users/mlsl/Documents/Processador_8bits/tb_processador.v 
+# -- Compiling module tb_processador
+# 
+# Top level modules:
+# 	tb_processador
+# End time: 20:10:31 on Jun 07,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_processador
+# vsim work.tb_processador 
+# Start time: 20:10:41 on Jun 07,2026
+# Loading work.tb_processador
+# Loading work.processador_8bits
+# Loading work.pc
+# Loading work.mar
+# Loading work.ram16x8
+# Loading work.ir
+# Loading work.accumulator_a
+# Loading work.register_b
+# Loading work.alu
+# Loading work.output_register
+# Loading work.controller_fsm
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+add wave -r *
+run 1000ns
+# ** Note: $stop    : C:/Users/mlsl/Documents/Processador_8bits/tb_processador.v(31)
+#    Time: 520 ps  Iteration: 0  Instance: /tb_processador
+# Break in Module tb_processador at C:/Users/mlsl/Documents/Processador_8bits/tb_processador.v line 31
+add wave /tb_processador/DUT/pc_out
+add wave /tb_processador/DUT/mar_out
+add wave /tb_processador/DUT/ram_out
+add wave /tb_processador/DUT/opcode
+add wave /tb_processador/DUT/operand
+add wave /tb_processador/DUT/out_data
+run 2000ns
+# End time: 20:18:32 on Jun 07,2026, Elapsed time: 0:07:51
+# Errors: 0, Warnings: 0
