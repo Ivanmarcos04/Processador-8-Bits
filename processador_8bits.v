@@ -209,9 +209,9 @@ module processador_8bits(
     );
 
     // ==========================================================
-    // Barramento W (bus8) - multiplexador de 8 bits
-    // Apenas um modulo coloca dados no barramento por vez.
-    // Prioridade: RAM > ALU > Acumulador > PC > IR.operand
+    // Barramento W (bus8) - multiplexador de 8 bits (wired-OR)
+    // Apenas um modulo dirige o barramento por vez; os demais
+    // emitem 0, entao o OR das fontes seleciona a ativa.
     // ==========================================================
     assign bus8 = ram_bus  |  // RAM quando CE_n=0
                   alu_bus  |  // ALU quando Eu=1
